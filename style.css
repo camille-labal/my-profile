@@ -1,0 +1,132 @@
+/* Style de base pour le corps de la page */
+body {
+    background-color: #f9f3f3; /* Couleur de fond douce */
+    color: #333; /* Couleur du texte principale */
+    font-family: Arial, sans-serif; /* Police par défaut */
+    font-size: 16px; /* Taille du texte de base */
+    line-height: 1.6; /* Hauteur de ligne pour espacer le texte */
+    margin: 0;
+    padding: 0;
+}
+
+/* Conteneur principal */
+.container {
+    width: 700px; /* Largeur du conteneur */
+    margin: 40px auto; /* Marges automatiques pour centrer */
+}
+
+/* En-têtes */
+h1, h2, h3 {
+    font-family: "Helvetica", sans-serif; /* Police uniforme pour tous les titres */
+    color: #3f3d56; /* Couleur harmonieuse pour les titres */
+    margin-top: 20px;
+    margin-bottom: 10px;
+    letter-spacing: 1px; /* Espacement entre les lettres */
+}
+
+/* Taille et style spécifiques */
+h1 {
+    font-size: 2.5em;
+}
+h2 {
+    font-size: 1.8em;
+}
+h3 {
+    font-size: 1.3em;
+}
+
+/* Liens */
+a {
+    color: #ff6f61; /* Couleur des liens */
+    text-decoration: none;
+    transition: color 0.3s ease; /* Transition douce */
+}
+
+/* Style de bouton */
+.button {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #ff6f61; /* Couleur des boutons */
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Effet au survol du bouton */
+.button:hover {
+    background-color: #ff4c3b; /* Changement de couleur au survol */
+}
+
+/* Liste des réseaux sociaux */
+.social-icons i {
+    color: #333; /* Couleur des icônes par défaut */
+}
+
+.social-icons a:hover i {
+    color: #ff6f61; /* Couleur des icônes au survol */
+}
+
+/* Mise en page des sections */
+.card-white {
+    background-color: #fff; /* Fond blanc pour les sections */
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 5px; /* Bord arrondi pour chaque section */
+    box-shadow: 0 10px 30px rgba(0,0,0,.1); /* Ombre légère */
+}
+
+/* Styles de la vidéo */
+video {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/* Style pour l'image de profil */
+.img-circle {
+    max-width: 150px;
+    border-radius: 50%; /* Rendre l'image ronde */
+}
+
+/* Styles pour les illustrations */
+.illustration {
+    max-width: 100%;
+    border-radius: 10px; /* Bord arrondi pour les images */
+    margin-top: 15px; /* Marge au-dessus des images */
+    margin-bottom: 15px; /* Marge en-dessous des images */
+}
+
+/* Pied de page */
+footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 0.9em;
+    color: #666;
+}
+
+/* Liste en ligne */
+.list-inline {
+    list-style: none; /* Enlever les puces */
+    padding-left: 0; /* Enlever le padding à gauche */
+}
+
+.list-inline > li {
+    display: inline; /* Comportement en ligne pour les éléments de liste */
+    padding: 0 20px; /* Espace entre les éléments de la liste */
+}
+
+/* Mise en page spécifique pour les petits écrans */
+@media (max-width: 600px) {
+    .container {
+        width: 90%; /* Largeur responsive */
+    }
+    h1 {
+        font-size: 2em;
+    }
+    h2 {
+        font-size: 1.5em;
+    }
+    h3 {
+        font-size: 1.2em;
+    }
+}
+
